@@ -5,7 +5,7 @@
 
 ## SHORT DESCRIPTION OF THIS PROJECT
 <br />Data class was used to hold data values. 
-<br />Data was extracted by websites using request and BeautifulSoup libraries.
+<br />Data was extracted by websites using request and BeautifulSoup libraries in **Python**.
 <br />Data was written to JSON data format and saved in a folder. 
 <br />In addition, data was converted from JSON data format to DataFrame. 
 <br />Next, DataFrame was saved as a csv file in a folder.

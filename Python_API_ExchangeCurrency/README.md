@@ -5,7 +5,7 @@
 
 ## SHORT DESCRIPTION OF THIS PROJECT
 <br />Data class was used to hold data values. 
-<br />Data was extracted by websites using a request library.
+<br />Data was extracted by websites using a request library in **Python**.
 <br />Data was written to JSON data format and saved in a folder.
 
 <br />All steps were described in [APIExchangeCurrencySymbol.ipynb](https://github.com/Longwinter93/Python_Projects/blob/main/Python_API_ExchangeCurrency/APIExchangeCurrencySymbol.ipynb)

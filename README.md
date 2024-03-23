@@ -1,6 +1,6 @@
 # PYTHON PROJECT
-<br />In this repository there are two projects where Python was used.
-<br />The main goal of this repository is to practise extracting data from webistes via using Python
+<br />In this repository there are two projects where **Python** was used.
+<br />The main goal of this repository is to practise extracting data from webistes via using **Python**
 
 ## [Python_API_ExchangeCurrency](https://github.com/Longwinter93/Python_Projects/tree/main/Python_API_ExchangeCurrency)
 <br />Data was extracted from a website using **Python**. Then, data was saved in JSON files.
