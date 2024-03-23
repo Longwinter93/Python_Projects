@@ -7,7 +7,7 @@
 <br />Data class was used to hold data values. 
 <br />Data was extracted by websites using request and BeautifulSoup libraries in **Python**.
 <br />Data was written to JSON data format and saved in a folder. 
-<br />In addition, data was converted from JSON data format to DataFrame. 
+<br />In addition, data was converted from JSON data format to DataFrame by using **Python** (Pandas). 
 <br />Next, DataFrame was saved as a csv file in a folder.
 
 <br />All steps were described in [WebScrapingPythonExchangeCurrency.ipynb](https://github.com/Longwinter93/Python_Projects/blob/main/Python_WebScraping/WebScrapingPythonExchangeCurrency.ipynb)
