@@ -1,7 +1,7 @@
 # Python_WebScraping
 
 ## MAIN GOAL OF THIS PROJECT
-<br />The main goal of this project was to extract **US DOLLAR EXCHANGE RATES TABLE** and **Percent Change in the Last 24 Hours** tables by using Python and saved this data as JSON as well as csv files.
+<br />The main goal of this project was to extract **US DOLLAR EXCHANGE RATES TABLE** and **Percent Change in the Last 24 Hours** tables by using **Python** and saved this data as JSON as well as csv files.
 
 ## SHORT DESCRIPTION OF THIS PROJECT
 <br />Data class was used to hold data values. 

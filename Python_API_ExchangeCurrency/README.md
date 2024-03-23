@@ -1,7 +1,7 @@
 # Python_API_ExchangeCurrency
 
 ## MAIN GOAL OF THIS PROJECT
-<br />The main goal of this project was to extract Exchnage Rate and Symbol for selected currencies data by using Python and saved this data as JSON files.
+<br />The main goal of this project was to extract Exchnage Rate and Symbol for selected currencies data by using **Python** and saved this data as JSON files.
 
 ## SHORT DESCRIPTION OF THIS PROJECT
 <br />Data class was used to hold data values. 
