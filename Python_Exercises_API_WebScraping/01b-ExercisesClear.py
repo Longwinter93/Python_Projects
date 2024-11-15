@@ -10,8 +10,8 @@
 # 
 # http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric
 # city ='Warsaw'
-# api_key ='9ab4c99fcf3024c2feea8532c904e48b'
-# http://api.openweathermap.org/data/2.5/weather?q=Warsaw&appid=9ab4c99fcf3024c2feea8532c904e48b&units=metric
+# api_key ='x'
+# http://api.openweathermap.org/data/2.5/weather?q=Warsaw&appid=x8b&units=metric
 
 # In[ ]:
 
