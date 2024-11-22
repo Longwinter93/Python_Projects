@@ -1,0 +1,13 @@
+{
+    "Name": "The Penguin",
+    "Genres": [
+        "Drama",
+        "Crime"
+    ],
+    "Language": "English",
+    "Time": "21:00",
+    "Days": [
+        "Sunday"
+    ],
+    "AverageRating": 7.6
+}

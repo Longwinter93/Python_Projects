@@ -1,0 +1,20 @@
+{
+    "From": "Z\u00fcrich HB",
+    "To": "Luzern",
+    "Departure": "2024-11-22T21:35:00+0100",
+    "DepartureTimeStamp": 1732307700,
+    "DeparturePlatform": "5",
+    "Arrival": "2024-11-22T22:25:00+0100",
+    "ArrivalTimeStamp": 1732310700,
+    "ArrivalPlatform": "4",
+    "Stations": [
+        "Z\u00fcrich HB",
+        "Zimmerberg-Basistunnel",
+        "Thalwil",
+        "Baar",
+        "Zug",
+        "Rotkreuz",
+        "Luzern"
+    ],
+    "TimeOfTravel": "50 minutes"
+}

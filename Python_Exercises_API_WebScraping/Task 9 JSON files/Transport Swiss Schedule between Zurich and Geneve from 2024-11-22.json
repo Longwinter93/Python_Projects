@@ -1,0 +1,22 @@
+{
+    "From": "Z\u00fcrich HB",
+    "To": "Gen\u00e8ve",
+    "Departure": "2024-11-22T21:30:00+0100",
+    "DepartureTimeStamp": 1732307400,
+    "DeparturePlatform": "11",
+    "Arrival": "2024-11-23T00:40:00+0100",
+    "ArrivalTimeStamp": 1732318800,
+    "ArrivalPlatform": "3",
+    "Stations": [
+        "Z\u00fcrich HB",
+        "Olten",
+        "Oensingen",
+        "Solothurn",
+        "Grenchen S\u00fcd",
+        "Biel/Bienne",
+        "Neuch\u00e2tel",
+        "Yverdon-les-Bains",
+        "Lausanne"
+    ],
+    "TimeOfTravel": "190 minutes"
+}
