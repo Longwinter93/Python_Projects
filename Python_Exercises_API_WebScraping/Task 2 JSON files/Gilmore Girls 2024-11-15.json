@@ -1,0 +1,14 @@
+{
+    "Name": "Gilmore Girls",
+    "Genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+    ],
+    "Language": "English",
+    "Time": "21:00",
+    "Days": [
+        "Tuesday"
+    ],
+    "AverageRating": 8.1
+}

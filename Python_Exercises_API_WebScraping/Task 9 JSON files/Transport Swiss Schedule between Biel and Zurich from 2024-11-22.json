@@ -1,0 +1,19 @@
+{
+    "From": "Biel/Bienne",
+    "To": "Z\u00fcrich HB",
+    "Departure": "2024-11-22T21:17:00+0100",
+    "DepartureTimeStamp": 1732306620,
+    "DeparturePlatform": "3",
+    "Arrival": "2024-11-22T22:30:00+0100",
+    "ArrivalTimeStamp": 1732311000,
+    "ArrivalPlatform": "15",
+    "Stations": [
+        "Biel/Bienne",
+        "Grenchen S\u00fcd",
+        "Solothurn",
+        "Oensingen",
+        "Olten",
+        "Z\u00fcrich HB"
+    ],
+    "TimeOfTravel": "73 minutes"
+}

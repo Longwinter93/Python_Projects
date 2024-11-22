@@ -1,0 +1,14 @@
+{
+    "Name": "The Event",
+    "Genres": [
+        "Drama",
+        "Action",
+        "Science-Fiction"
+    ],
+    "Language": "English",
+    "Time": "21:00",
+    "Days": [
+        "Monday"
+    ],
+    "AverageRating": 7.4
+}

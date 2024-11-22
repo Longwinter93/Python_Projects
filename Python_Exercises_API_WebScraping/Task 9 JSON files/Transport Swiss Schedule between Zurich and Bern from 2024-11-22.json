@@ -1,0 +1,16 @@
+{
+    "From": "Z\u00fcrich HB",
+    "To": "Bern",
+    "Departure": "2024-11-22T21:32:00+0100",
+    "DepartureTimeStamp": 1732307520,
+    "DeparturePlatform": "31",
+    "Arrival": "2024-11-22T22:28:00+0100",
+    "ArrivalTimeStamp": 1732310880,
+    "ArrivalPlatform": "8",
+    "Stations": [
+        "Z\u00fcrich HB",
+        "Bahn-2000-Strecke",
+        "Bern"
+    ],
+    "TimeOfTravel": "56 minutes"
+}
