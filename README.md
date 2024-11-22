@@ -9,7 +9,7 @@
 <br />Data was extracted from a website using **Python**. Data was saved in JSON files.
 <br />JSON data format was converted to DataFrame and saved as csv files.
 
-## [Python_Exercises_API_WebScraping](https://github.com/Longwinter93/Python_Projects/tree/main/Python_Exercies_API_WebScraping)
+## [Python_Exercises_API_WebScraping](https://github.com/Longwinter93/Python_Projects/tree/main/Python_Exercises_API_WebScraping)
 <br />
 <br />
 
