@@ -1,0 +1,17 @@
+{
+    "From": "Basel SBB",
+    "To": "Lugano",
+    "Departure": "2024-11-23T10:45:00+0100",
+    "DepartureTimeStamp": 1732355100,
+    "DeparturePlatform": "5",
+    "Arrival": "2024-11-23T13:58:00+0100",
+    "ArrivalTimeStamp": 1732366680,
+    "ArrivalPlatform": "2",
+    "Stations": [
+        "Basel SBB",
+        "Liestal",
+        "Sissach",
+        "Olten"
+    ],
+    "TimeOfTravel": "193 minutes"
+}

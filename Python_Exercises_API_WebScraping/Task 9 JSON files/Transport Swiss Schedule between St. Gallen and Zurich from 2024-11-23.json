@@ -1,0 +1,22 @@
+{
+    "From": "St. Gallen",
+    "To": "Z\u00fcrich HB",
+    "Departure": "2024-11-23T10:37:00+0100",
+    "DepartureTimeStamp": 1732354620,
+    "DeparturePlatform": "1",
+    "Arrival": "2024-11-23T11:51:00+0100",
+    "ArrivalTimeStamp": 1732359060,
+    "ArrivalPlatform": "32",
+    "Stations": [
+        "St. Gallen",
+        "Gossau SG",
+        "Flawil",
+        "Uzwil",
+        "Wil SG",
+        "Winterthur",
+        "Z\u00fcrich Flughafen",
+        "Z\u00fcrich Oerlikon",
+        "Z\u00fcrich HB"
+    ],
+    "TimeOfTravel": "74 minutes"
+}

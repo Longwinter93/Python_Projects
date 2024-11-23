@@ -1,0 +1,19 @@
+{
+    "From": "Z\u00fcrich HB",
+    "To": "Gen\u00e8ve",
+    "Departure": "2024-11-23T10:32:00+0100",
+    "DepartureTimeStamp": 1732354320,
+    "DeparturePlatform": "31",
+    "Arrival": "2024-11-23T13:18:00+0100",
+    "ArrivalTimeStamp": 1732364280,
+    "ArrivalPlatform": "3",
+    "Stations": [
+        "Z\u00fcrich HB",
+        "Bahn-2000-Strecke",
+        "Bern",
+        "Fribourg/Freiburg",
+        "Lausanne",
+        "Gen\u00e8ve"
+    ],
+    "TimeOfTravel": "166 minutes"
+}

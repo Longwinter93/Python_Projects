@@ -1,0 +1,19 @@
+{
+    "From": "Biel/Bienne",
+    "To": "Z\u00fcrich HB",
+    "Departure": "2024-11-23T10:46:00+0100",
+    "DepartureTimeStamp": 1732355160,
+    "DeparturePlatform": "3",
+    "Arrival": "2024-11-23T11:56:00+0100",
+    "ArrivalTimeStamp": 1732359360,
+    "ArrivalPlatform": "34",
+    "Stations": [
+        "Biel/Bienne",
+        "Solothurn",
+        "Bahn-2000-Strecke",
+        "Olten",
+        "Aarau",
+        "Z\u00fcrich HB"
+    ],
+    "TimeOfTravel": "70 minutes"
+}

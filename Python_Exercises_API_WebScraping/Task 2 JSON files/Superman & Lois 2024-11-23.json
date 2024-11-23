@@ -1,0 +1,14 @@
+{
+    "Name": "Superman",
+    "Genres": [
+        "Action",
+        "Adventure",
+        "Science-Fiction"
+    ],
+    "Language": "English",
+    "Time": "08:30",
+    "Days": [
+        "Saturday"
+    ],
+    "AverageRating": 6.8
+}

@@ -10,6 +10,6 @@
 <br />JSON data format was converted to DataFrame and saved as csv files.
 
 ## [Python_Exercises_API_WebScraping](https://github.com/Longwinter93/Python_Projects/tree/main/Python_Exercises_API_WebScraping)
-<br />
-<br />
+<br />A few tasks were undertaken in order to practise Python.
+<br />The main goal of these tasks was to extract data from websites and work on it.
 

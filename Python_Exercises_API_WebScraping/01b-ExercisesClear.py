@@ -1,17 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Zadanie 1: Użycie dataclass do reprezentacji danych pogodowych
-# 
-# Korzystając z API OpenWeatherMap (https://openweathermap.org/api), napisz funkcję,
-# która pobiera dane pogodowe (miasto, temperatura, wilgotność, ciśnienie, opis) 
-# dla danego miasta i zwraca je jako instancję klasy Weather.
-# 
-# 
-# http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric
-# city ='Warsaw'
-# api_key =''
-# http://api.openweathermap.org/data/2.5/weather?q=&appid=&units=metric
+# **Task 1**:
+# You should create a function that gets weather data from API OpenWeatherMap (https://openweathermap.org/api) for a city.
+# Data values should be held in a dataclass (for example a Weather class). You should obtain city, temperature, humidity, pressure and description of weather. Data should be returned in a dictionary and saved in a JSON file.
 
 # In[1]:
 
@@ -72,15 +64,8 @@ print(GetDataWeather('Zurich'))
 print(GetDataWeather('Paris'))
 
 
-# Zadanie 2: Użycie dataclass do reprezentacji danych o filmie
-# 
-# Korzystając z tvmaze (https://www.tvmaze.com/api), napisz funkcję, która pobiera informacje o filmie
-#  (tytul, typ (genres), jezyk, kiedy wyswietlany film (schedule),status,fabula (summary), network,rating_average ) na podstawie jego tytułu i zwraca je jako instancję klasy Movie.
-# 
-# 
-# https://api.tvmaze.com/singlesearch/shows?q=batman
-# https://www.tvmaze.com/shows
-# 
+# **Task 2**: You should write a function that gets information about a film from a tvmaze webiste (https://www.tvmaze.com/api) by using dataclass.
+# Information about a film should include name, genres, language, time, days and rating. You should use a Movies class to hold these values. Data should be returned in a dictionary and saved in a JSON file.
 
 # In[3]:
 
@@ -139,12 +124,11 @@ print(GetMoviesData('All Creatures Great and Small'))
 print(GetMoviesData('The Event'))
 
 
-# Zadanie 3: Analiza częstotliwości liter w tekście
+# **Task 3**: 
+# You should create a function that analyze the frequency of appearing letters in a text by using https://www.gutenberg.org/
+# Data should be returned in a dictionary. 
 # 
-# Korzystając z otwartego zbioru danych z Project Gutenberg (https://www.gutenberg.org/), napisz funkcję, 
-# która analizuje częstotliwość występowania liter w tekście i zwraca je jako słownik.
-# 
-#  "https://www.gutenberg.org/files/1342/1342-0.txt"  # Pride and Prejudice by Jane Austen   
+# One of examples: "https://www.gutenberg.org/files/1342/1342-0.txt"  # Pride and Prejudice by Jane Austen   
 # 
 
 # In[5]:
@@ -193,13 +177,11 @@ print(GetFrequencyOfLettersInText('https://www.gutenberg.org/files/74775/74775-0
 print(GetFrequencyOfLettersInText('https://www.gutenberg.org/files/74770/74770-0.txt'))
 
 
-# Zadanie 4: Wyszukiwanie najpopularniejszych słów w tekście
+# **Task 4:**
+# A function should be created to return the most popular words in a text (for example the most popular 10). Data should be returned in a dictionary.
+# To do it, you can use this https://www.gutenberg.org/ website.
 # 
-# Korzystając z otwartego zbioru danych z Project Gutenberg (https://www.gutenberg.org/) np.,
-# napisz funkcję, która zwraca n najpopularniejszych słów w tekście.
-# 
-# "https://www.gutenberg.org/files/2701/2701-0.txt"  # Moby Dick by Herman Melville  
-# 
+# One of examples: "https://www.gutenberg.org/files/2701/2701-0.txt"  # Moby Dick by Herman Melville  
 
 # In[8]:
 
@@ -244,14 +226,11 @@ print(GetTheMostFrequentWordsInText('https://www.gutenberg.org/files/100/100-0.t
 print(GetTheMostFrequentWordsInText('https://www.gutenberg.org/files/64317/64317-0.txt',20))
 
 
-# Zadanie 6: Pobieranie kursów walut
-# 
-# Napisz funkcję, która pobiera kursy walut z serwisu https://www.x-rates.com/ i zwraca je jako słownik.
-# Np. konwersja z jednej waluty do drugiej np. wpisujesz PLN na CHF na bazie tego
-# Dwie wersje - wykorzystujac link https://www.x-rates.com/calculator/?from=GBP&to=USD&amount=1 i podmieniajc ilosc
-# albo po prostu zrobic ze jeden gbp to iles dolarow i sciagnac i pomnozyc to.
-# Wpisujesz po prostu symbole i ci zwraca.
-# 
+# **Task 5**:
+# A function should get exchange rates by using  https://www.x-rates.com/. Data should be returned as a dictionary.
+# a) A rates table should be saved as a dictionary
+# b) A Percent Change in the Last 24 hours should be saved as a dictionary
+# c) A function that converse the value of currency (for example 1USD to 0.95 EUR) by writing symbols and amount.
 
 # In[11]:
 
@@ -358,11 +337,10 @@ print(ConvertingCurrency('USD','EUR',100))
 print(ConvertingCurrency('EUR','USD',50))
 
 
-# Zadanie 7: Pobieranie informacji o filmach z IMDb
-# 
-# Napisz funkcję, która pobiera informacje o 10 najlepszych filmach na stronie https://www.imdb.com/chart/top/ i
-#  zwraca je jako listę słowników. (tytul, rok, ocena)
-# 
+# **Task 6**: 
+# A function should return information about the best 10 movies from a https://www.imdb.com/chart/top/ website.
+# Information should include title, year and ratings.
+# Data should be returned as a List of Dictionary
 
 # In[17]:
 
@@ -412,8 +390,9 @@ def GetTop10Movies() -> dict:
 GetTop10Movies()
 
 
-# Zadanie 7:
-# Napisz funkcję, która pobiera tytuły artykułów z bloga na stronie https://blog.python.org/ i zwraca je jako listę.
+# **Task 7**: 
+# A function should get the article's titles from a  https://blog.python.org/ webiste. 
+# Data should be retures as a list.
 
 # In[19]:
 
@@ -443,12 +422,9 @@ def GetArticleTitles() -> list:
 GetArticleTitles()
 
 
-# Zadanie 8 
-# Napisz program, który pobierze od użytkownika (funkcja input) wysokość i szerokość geograficzną, a następnie wykona request na API pogodowe. 
-# Odpowiedź powinna być zmapowana na klasę Weather. Program powinien zapisać wypełnioną klasę Weather do pliku pkl pickle i zapisac w postaci JSONa z danymi: latitude: ,longitude: ,windspeed: ,temperature. Najpierw powinna zwrocic dane z URL, a nastepnie zapisac wybrane zmienne do JSON
-# URL = https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m
-# 
-# Najpierw zrobic request API zeby zwrocic JSONA z tej strony, potem zdefiniowac klasy gdzie zapisze tego jsona za pomoca klasy Weather z danymi, nastepnie zapisac te dane w postaci JSONa.
+# **Task 8**:
+# A function should return data from a https://api.open-meteo.com/ website by putting a city, latitude and longitude.
+# Dataclass should hold values (latitude, longitude, windspeed and temperature) by using a Weather class. Data should be returned as a dictionary and saved as JSON files.
 
 # In[21]:
 
@@ -502,8 +478,9 @@ print(GetWeather('Zurich',47.373878,8.545094))
 
 
 
-# Zadanie 8. 
-# Stworzenie aplikacji, ktora tworzy haslo i zapisuje je z odpowiednia aplikacja np. pisze sie aplikacje a nastepnie generuje sie haslo
+# **Task 9**:
+# A function generate password should be created that takes the name of the application and generates the password for it.
+# Data should be saved in a text file.
 
 # In[23]:
 
@@ -568,10 +545,8 @@ def generate_password_for_app(Application: str) -> str:
 generate_password_for_app(Application=input('Enter your application to generate password for its'))
 
 
-# Zadanie 9
-# Napisz funkcje, ktora pobierze informacje o polaczeniu miedzy dwiema dowolnymi miastami w Szwajcarii. Informacje powinny zawierac stacje/platforme, kiedy odjazd i przyjazd, obliczyc czas ile trwa, postarac zwrocic przystanki
-# https://transport.opendata.ch/docs.html
-# 
+# **Task 9**:
+# A function should gain information about the schedule in Switerland between cities from https://transport.opendata.ch/docs.html website. Data should include a connection between two cities (for example Zurich and Basel), platforms, arrival and departure time, stations and time. Dataclass should hold these values by using a class. Data should be returned as a dictionary and saved as JSON files.
 
 # In[29]:
 
